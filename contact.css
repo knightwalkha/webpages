@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(img2.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background: rgb(19, 19, 19);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#container {
+    min-height: 100%;
+    background-color: rgb(30, 28, 28, 0.5);
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 3vh;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bolder;
+}
+
+.custom, #email, #name, #message {
+    border: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(10, 240, 63);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 12px;
+}
+
+button {
+    background-color: rgb(10, 240, 63);
+    font-size: 25px;
+    border: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: -60px;
+    clear: both;
+    height: 8vh;
+    background: rgb(19, 19, 19);
+}
+
+footer p {
+    color: whitesmoke;
+}
